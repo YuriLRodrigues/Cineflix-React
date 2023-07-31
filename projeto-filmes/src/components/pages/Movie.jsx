@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import MovieCard from "../MovieCard";
 import MovieDetails from "../MovieDetails";
 const moviesUrl = "https://api.themoviedb.org/3/movie/";
 const APIKey = "8e4eac282917b6616622bc74b63f3732";
